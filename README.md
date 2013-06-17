@@ -18,8 +18,8 @@ NSDate category for using localized weekday strings. The localized strings depen
 + (NSDate *)addDays:(NSInteger)days toDate:(NSDate *)originalDate;
 + (NSInteger)daysBetweenDate:(NSDate*)fromDateTime andDate:(NSDate*)toDateTime;
 ```
-####Class methods for getting a localized wekkday string for a given day####
-#####Keep in mind: Weekdays start from Sunday(hey also start at index 1)#####
+####Class methods for getting a localized weekday string for a given day####
+#####Keep in mind: Weekdays start from Sunday(they also start at index 1)#####
 + Sunday - 1
 + Monday - 2
 + Tuesday - 3
@@ -36,7 +36,7 @@ NSDate category for using localized weekday strings. The localized strings depen
 
 ####Instance methods used for a particular NDDate object####
 ```obj-c
-- (NSString *)veryShorttWeekdayString;
+- (NSString *)veryShortWeekdayString;
 - (NSString *)shortWeekdayString;
 - (NSString *)weekdayString;
 - (NSString *)weekdayStringFormattingRecentDaysWithYesterdayLocalizedIdentifier:(NSString *)yesterday
